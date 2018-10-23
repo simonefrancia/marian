@@ -1,8 +1,12 @@
+### EXAMPLES
+
+```
 source env.sh
 bash build.sh
 bash run_dev.sh $VERSION
+```
 
-### EXAMPLES
+
 
 ##### STINPUT MODE
 
@@ -19,15 +23,14 @@ bash run_dev.sh $VERSION
 	--dec-cell-high-depth 1   
 	--dec-cell gru-nematus 
 	--enc-cell gru-nematus   
-	--tied-embeddings true```
-
-
-
+	--tied-embeddings true
+```
 
 
 ######## FILE MODE
 
-```./marian-decoder
+```
+./marian-decoder
         --type nematus
         --models /wmt17_systems/en-de/model.l2r.ens1.npz
         --vocabs /wmt17_systems/en-de/vocab.en.json /wmt17_systems/en-de/vocab.de.json  
@@ -41,4 +44,4 @@ bash run_dev.sh $VERSION
         --dec-cell gru-nematus 
         --enc-cell gru-nematus   
         --tied-embeddings true      < input.txt  > output.txt
-	```
+```
