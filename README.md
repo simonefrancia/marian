@@ -10,7 +10,8 @@ bash run_dev.sh $VERSION
 
 ##### STD INPUT MODE
 
-```./marian-decoder 
+```
+./marian-decoder 
 	--type nematus 
 	--models /wmt17_systems/en-de/model.l2r.ens1.npz 
 	--vocabs /wmt17_systems/en-de/vocab.en.json /wmt17_systems/en-de/vocab.de.json  
