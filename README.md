@@ -11,7 +11,7 @@ bash run_dev.sh $VERSION
 ##### STD INPUT MODE
 
 ```
-cd marian-dev/build
+
 ./marian-decoder 
 	--type nematus 
 	--models /wmt17_systems/en-de/model.l2r.ens1.npz 
@@ -32,7 +32,6 @@ cd marian-dev/build
 ##### FILE INPUT OUTPUT MODE
 
 ```
-cd marian-dev/build
 ./marian-decoder
         --type nematus
         --models /wmt17_systems/en-de/model.l2r.ens1.npz
