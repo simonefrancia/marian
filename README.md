@@ -8,7 +8,7 @@ bash run_dev.sh $VERSION
 
 
 
-##### STINPUT MODE
+##### STD INPUT MODE
 
 ```./marian-decoder 
 	--type nematus 
@@ -27,7 +27,7 @@ bash run_dev.sh $VERSION
 ```
 
 
-######## FILE MODE
+##### FILE INPUT OUTPUT MODE
 
 ```
 ./marian-decoder
