@@ -26,6 +26,7 @@ bash run_dev.sh $VERSION
 	--dec-cell gru-nematus 
 	--enc-cell gru-nematus   
 	--tied-embeddings true
+	--layer-normalization true
 ```
 
 
@@ -45,5 +46,8 @@ bash run_dev.sh $VERSION
         --dec-cell-high-depth 1   
         --dec-cell gru-nematus 
         --enc-cell gru-nematus   
-        --tied-embeddings true      < input.txt  > output.txt
+        --tied-embeddings true  
+	--layer-normalization true 
+		< input.txt
+		> output.txt
 ```
