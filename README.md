@@ -1,4 +1,4 @@
-### EXAMPLES
+### Steps to Install
 
 ```
 source env.sh
