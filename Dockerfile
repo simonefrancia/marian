@@ -49,6 +49,23 @@ RUN git clone https://github.com/moses-smt/mosesdecoder
 
 RUN wget -r -e robots=off -nH -np -R *ens2* -R *ens3* -R *ens4* -R *r2l* -R translate-ensemble.sh -R translate-reranked.sh -R index.html* http://data.statmt.org/wmt17_systems/en-de/
 
+RUN wget -r -e robots=off -nH -np -R *ens2* -R *ens3* -R *ens4* -R *r2l* -R translate-ensemble.sh -R translate-reranked.sh -R index.html* http://data.statmt.org/wmt17_systems/en-ru/
+
+RUN wget -r -e robots=off -nH -np -R *ens2* -R *ens3* -R *ens4* -R *r2l* -R translate-ensemble.sh -R translate-reranked.sh -R index.html* http://data.statmt.org/wmt17_systems/de-en/
+
+RUN wget -r -e robots=off -nH -np -R *ens2* -R *ens3* -R *ens4* -R *r2l* -R translate-ensemble.sh -R translate-reranked.sh -R index.html* http://data.statmt.org/wmt17_systems/en-cs/
+
+RUN wget -r -e robots=off -nH -np -R *ens2* -R *ens3* -R *ens4* -R *r2l* -R translate-ensemble.sh -R translate-reranked.sh -R index.html* http://data.statmt.org/wmt17_systems/en-tr/
+
+RUN wget -r -e robots=off -nH -np -R *ens2* -R *ens3* -R *ens4* -R *r2l* -R translate-ensemble.sh -R translate-reranked.sh -R index.html* http://data.statmt.org/wmt17_systems/en-zh/
+
+RUN wget -r -e robots=off -nH -np -R *ens2* -R *ens3* -R *ens4* -R *r2l* -R translate-ensemble.sh -R translate-reranked.sh -R index.html* http://data.statmt.org/wmt17_systems/lv-en/
+
+RUN wget -r -e robots=off -nH -np -R *ens2* -R *ens3* -R *ens4* -R *r2l* -R translate-ensemble.sh -R translate-reranked.sh -R index.html* http://data.statmt.org/wmt17_systems/zh-en/
+
+RUN wget -r -e robots=off -nH -np -R *ens2* -R *ens3* -R *ens4* -R *r2l* -R translate-ensemble.sh -R translate-reranked.sh -R index.html* http://data.statmt.org/wmt17_systems/cs-en/	
+
+
 ENV MARIANPATH /marian-dev
 
 WORKDIR $MARIANPATH
